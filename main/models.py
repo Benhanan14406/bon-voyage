@@ -9,3 +9,4 @@ class Travel(models.Model):
     travelTime = models.IntegerField(default=0, db_default=0, editable=True)
     travelMode = models.CharField(max_length=10, default="", editable=True)
     travelError = models.IntegerField(default=0, db_default=0, editable=True)
+    tolCost = models.IntegerField(default=0, db_default=0, editable=True)
